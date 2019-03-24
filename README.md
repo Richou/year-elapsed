@@ -2,7 +2,7 @@
 
 A simple project in VueJS to know the Year Elapsed in percent
 
-## Technical
+## Technical
 
 Frameworks used : 
  - [VueJS](https://vuejs.org/)
