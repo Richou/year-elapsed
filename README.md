@@ -1,34 +1,17 @@
 # year-elapsed
 
-## Project setup
-```
-npm install
-```
+A simple project in VueJS to know the Year Elapsed in percent
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Technical
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Frameworks used : 
+ - [VueJS](https://vuejs.org/)
+ - [VueMaterial](https://vuematerial.io/)
+ - [date-fns](https://date-fns.org/)
+ - [Firebase](https://firebase.google.com)
+ 
+ This project is hosted by Firebase [here](https://year-elapsed.firebaseapp.com/)
 
-### Run your tests
-```
-npm run test
-```
+## Why This project ?
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Dunno ... Why not ?
