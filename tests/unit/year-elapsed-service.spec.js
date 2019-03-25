@@ -11,7 +11,7 @@ describe('YearElapsedService.js', () => {
 
   it('Check seconds for year', () => {
     const seconds = getSecondsForYear();
-    expect(seconds).to.be.equals(31449600000);
+    expect(seconds).to.be.equals(31536000000);
   });
 
 });

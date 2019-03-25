@@ -9,7 +9,7 @@ export const getSecondsElapsedFrom = (fromDate) => {
 
 export const getSecondsForYear = () => {
   const currentYear = getCurrentYear();
-  return getSecondsElapsedFrom(new Date(currentYear, 11, 31, 0, 0))
+  return getSecondsElapsedFrom(new Date(currentYear + 1, 0, 1, 0, 0))
 };
 
 export const getYearElaspedPercent = () => {
