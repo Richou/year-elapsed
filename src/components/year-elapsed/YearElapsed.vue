@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header>Year <strong>{{currentYear}}</strong> is <strong>{{elapsedYear.toFixed(12)}}%</strong> accomplished...</header>
+    <section>Year <strong>{{currentYear}}</strong> is <strong>{{elapsedYear.toFixed(12)}}%</strong> accomplished...</section>
     <md-progress-bar md-mode="determinate" :md-value="elapsedYear"></md-progress-bar>
   </div>
 </template>
@@ -32,11 +32,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  header {
-    padding: 20px;
+
+  div {
+    text-align: center;
+
+    section {
+      padding: 20px;
+    }
+    .md-progress-bar {
+      margin: 0 24px;
+      height: 50px;
+    }
   }
-  .md-progress-bar {
-    margin: 0 24px;
-    height: 50px;
-  }
+
 </style>
