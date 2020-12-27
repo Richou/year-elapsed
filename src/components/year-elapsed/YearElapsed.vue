@@ -20,6 +20,7 @@ export default {
   mounted: function() {
     this.timer = setInterval(() => {
       this.elapsedYear = getYearElaspedPercent()
+      this.currentYear = getCurrentYear()
     }, 100);
   },
   destroyed: function() {
